@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            > </item>
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Chat with Nutritionist"
+            > </item>
+        <item
+            android:id="@+id/nav_bmr"
+            android:title="BMR Calculator"
+            > </item>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            > </item>
+    </group>
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Workout"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#87ceeb">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workouts"
+            android:textSize="36dp"
+            android:layout_marginTop="15dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's nail it together"
+        android:textSize="24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fitness"></ImageView>
+        <TextView
+            android:id="@+id/chestWrkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chest Workout"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fitness"></ImageView>
+        <TextView
+            android:id="@+id/legsWrkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Legs Workout"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fitness"></ImageView>
+        <TextView
+            android:id="@+id/armsWrkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arms Workout"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fitness"></ImageView>
+        <TextView
+            android:id="@+id/absWrkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abs Workout"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:layout_marginLeft="10dp"
+            >
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87ceeb"
+    android:orientation="vertical"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/topImg"
+        android:layout_width="136dp"
+        android:layout_height="127dp"
+        android:src="@drawable/running"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+    </ImageView>
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:id="@+id/nav_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:visibility="invisible"-->
+<!--        app:headerLayout="@layout/header"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:menu="@menu/main_menu" >-->
+
+<!--    </com.google.android.material.navigation.NavigationView>-->
+
+    <LinearLayout
+        android:id="@+id/bmrLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70dp"
+        android:fadingEdge="horizontal"
+        android:background="@drawable/layout_bg"
+        >
+
+        <ImageView
+            android:id="@+id/imageBmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/bmi" />
+
+        <TextView
+            android:id="@+id/bmiTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingBottom="2dp"
+            android:text="BMR"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_bg">
+
+        <ImageView
+            android:id="@+id/imageMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/message" />
+
+        <TextView
+            android:id="@+id/chatTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="Chat with dietician"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/workLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_bg">
+
+        <ImageView
+            android:id="@+id/imageWrkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/workout" />
+
+        <TextView
+            android:id="@+id/workoutTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:text="Workout plans"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>
