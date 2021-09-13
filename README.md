@@ -9,8 +9,9 @@
   * Supports Android 6.0 and above.
 
 ## Screenshots
-  ![Screenshot_20210910-145847_FitnessApp](https://user-images.githubusercontent.com/35746430/133091638-4c4f9d60-76b6-4d20-afa1-d8efda9b202f.jpg)
-  ![Screenshot_20210910-145948_FitnessApp](https://user-images.githubusercontent.com/35746430/133091702-befae9e1-23f5-473f-a863-5e9911c482eb.jpg)
-  ![Screenshot_20210913-092426_FitnessApp](https://user-images.githubusercontent.com/35746430/133091712-a78db3c1-189d-4919-a0d8-2b9558a12a3a.jpg)
+  ![Screenshot_20210910-145847_FitnessApp (1)](https://user-images.githubusercontent.com/35746430/133092303-155cb284-4aed-408c-b705-06bf3daab8d2.jpg)
+  ![Screenshot_20210910-145948_FitnessApp (1)](https://user-images.githubusercontent.com/35746430/133092313-fe93255f-454b-444a-aa6f-9f81f14a5f14.jpg)
+  ![Screenshot_20210913-092426_FitnessApp (1)](https://user-images.githubusercontent.com/35746430/133092325-173d59a3-ff72-49b3-b89b-ac4c1ee18e3e.jpg)
+
 ## Development
 For development Android Studio, with gradle is used.
